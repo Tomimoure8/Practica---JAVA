@@ -15,8 +15,9 @@ public class HojaCuatro {
      * - public: Hace que el metodo sea accesible desde cualquier otra clase. Esto es esencial para que la JVM pueda ejecutar el metodo `main`.
      * - static: Permite que el metodo sea llamado sin tener que crear una instancia de la clase. Dado que `main` es el punto de entrada del programa, la JVM lo llama directamente, sin instanciar la clase.
      * - void: Significa que el metodo no devuelve ningún valor.
-     * - main: Es el punto que la jvm busca para interactuar y poner en funcionamiento el programa.
+     * - main: Es el nombre convencional del metodo que actúa como punto de entrada del programa. La firma exacta `public static void main(String[] args)` es requerida por la JVM para iniciar la ejecución del programa.
      * 4. ¿Para qué sirve el System.out.println?
+     * Tanto System.out.println en Java como console.log en JavaScript se utilizan para imprimir valores en la consola.
      *
      * 5. Analiza el código y explica el paso por paso.
      *
